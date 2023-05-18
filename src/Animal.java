@@ -11,9 +11,8 @@ public interface Animal {
         System.out.println("Realizando la actividad: " + actividad);
     }
 
-    static void mostrarInformacion(String act) {
-        System.out.println("Esta es la interfaz Animal" + act);
+    static void mostrarInformacion() {
+        System.out.println("Esta es la interfaz Animal");
     }
-
 
 }

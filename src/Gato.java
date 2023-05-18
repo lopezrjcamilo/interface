@@ -14,9 +14,16 @@ public class Gato implements Animal {
         this.nombre = nombre;
     }
 
+    /*
     @Override
     public void hacerSonido() {
         System.out.println(getNombre() + " hace: " + SONIDO_GATO);
+    }
+     */
+
+    @Override
+    public void hacerSonido() {
+        System.out.println(getNombre() + " hace: ¡Miiauuu!");
     }
 
     @Override
@@ -31,6 +38,7 @@ public class Gato implements Animal {
 
     @Override
     public void realizarActividad(String actividad) {
-        //System.out.println(getNombre() + actividad + ".");
+        System.out.println(getNombre() + " está " + actividad + ".");
     }
+
 }
